@@ -1,0 +1,67 @@
+.inputBlock {
+    padding: 3%;
+    box-shadow: 0 0px 5px rgb(77, 77, 255);
+    border-radius: 12%;
+    background-color:rgb(160, 168, 187);
+}
+
+#root {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: rgb(198, 198, 204);
+}
+
+.content {
+    flex: 1;
+}
+
+footer, input, img {
+    user-select: none;
+}
+
+img:hover {
+    cursor:pointer;
+}
+
+.unblockHover:hover {
+    filter: drop-shadow(0 0px 1px rgb(1, 160, 62));
+}
+
+.blockHover:hover {
+    filter: drop-shadow(0 0px 2px rgb(217, 255, 0));
+}
+
+.deleteHover:hover {
+    filter: drop-shadow(0 0px 1px rgb(255, 0, 0));
+}
+
+table {
+    border-color:  rgb(160, 168, 187) !important;
+}
+
+.form-control {
+    width: 200px !important;
+}
+
+.checkboxPosition {
+    margin-left: 33% !important;
+}
+
+.checkboxPosition:hover {
+    box-shadow: 0 0px 3px rgb(160, 168, 187);
+}
+
+#contained-modal-title-vcenter {
+    text-align: center !important;
+}
+
+@media only screen and (max-width: 768px) {
+    .content {
+        width: 100%;
+    }
+
+    .inputBlock{
+        padding: 6%;
+    }
+}
